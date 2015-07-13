@@ -4,8 +4,7 @@
     "main": [
         "dist/css/fontawesome-iconpicker.css",
         "dist/css/fontawesome-iconpicker.min.css",
-        "dist/js/fontawesome-iconpicker.js",
-        "dist/js/fontawesome-iconpicker.min.js"
+        "src/js/iconpicker.js"
     ],
     "dependencies": {
         "jquery": "^1.10",
