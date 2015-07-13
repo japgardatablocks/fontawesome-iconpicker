@@ -11,7 +11,7 @@
 (function(factory) {
         "use strict";
         if (typeof define === 'function' && define.amd) {
-            define(['jquery'], factory);
+            define(['jquery','jquery.ui.pos'], factory);
         } else if (window.jQuery && !window.jQuery.fn.iconpicker) {
             factory(window.jQuery);
         }
